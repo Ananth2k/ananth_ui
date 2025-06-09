@@ -130,14 +130,7 @@ max-width: 350px;
 box-shadow: 0px 0px 50px 0px #42a5e96e;
     border-radius: 100%;
 }
-.profile-placeholder {
-  /* width: 250px;
-  height: 250px;
-  /* background-color: #ccc; */
-  /* background-image: url("../images/profile.png");
-  border-radius: 50%; */ 
 
-}
 /* Skills Section */
 .skills {
   text-align: center;
