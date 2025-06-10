@@ -128,7 +128,19 @@ img {
   width: 100%;
 max-width: 350px;
 box-shadow: 0px 0px 50px 0px #42a5e96e;
+ animation: glowAnimation 2s infinite alternate;
     border-radius: 100%;
+}
+@keyframes glowAnimation {
+  0% {
+    box-shadow: 0px 0px 20px 0px #6a31be99;
+  }
+   0% {
+    box-shadow: 0px 0px 30px 0px #ef79ff99;
+  }
+  100% {
+    box-shadow: 0px 0px 40px 0px #00e5ff80; /* Second glow color */
+  }
 }
 
 /* Skills Section */
