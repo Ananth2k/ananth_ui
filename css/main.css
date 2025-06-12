@@ -178,17 +178,18 @@ box-shadow: 0px 0px 50px 0px #42a5e96e;
   background: #2a2a2a;
   border-radius: 15px;
   overflow: hidden;
-  width: 300px;
+  /* width: 300px; */
   text-align: left;
 }
 
-.card-content {
-  padding: 1rem;
+.card-content > div.d-flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+.card-content p{
+  color: rgb(208 208 208 / 75%);
+}
 .card-content h4 {
   font-size: 1.2rem;
 }
